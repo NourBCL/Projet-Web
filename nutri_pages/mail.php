@@ -15,9 +15,10 @@
         echo "Email sent!";
         header('Location:nutritionists.php');
     }
+    // TEST
 ?>
 
-
+ 
 <!DOCTYPE html>
 <html lang="en">
 <head>
