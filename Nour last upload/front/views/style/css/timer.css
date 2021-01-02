@@ -1,0 +1,27 @@
+.container1{
+    position: relative;
+    width: 100%;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+  }
+  .count{
+    margin: 40px 0;
+  }
+  .countd{
+    display: inline-block;
+    width: 80px;
+    height: 80px;
+    border: 2px solid;
+    margin: 0 30px;
+    font-size: 12px;
+    border-radius: 50%;
+    overflow: hidden;
+  }
+  .countd span{
+    display: block;
+    font-size: 26px;
+    margin-top: 14px;
+  }
