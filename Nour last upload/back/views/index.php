@@ -186,6 +186,14 @@
                             <a href="chart.html">
                                 <i class="fas fa-chart-bar"></i>Charts</a>
                         </li>
+                        <li class="">
+                            <a href="nutri_admin.php">
+                            <i class="fas fa-chart-bar"></i>Nutritionist Admin</a>
+                        </li>
+                        <li class="">
+                            <a href="admin_rdv.php">
+                            <i class="fas fa-chart-bar"></i>Appointments Admin</a>
+                        </li>
                         <li>
                             <a href="table.html">
                                 <i class="fas fa-table"></i>Tables</a>

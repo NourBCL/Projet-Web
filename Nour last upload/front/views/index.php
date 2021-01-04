@@ -1,6 +1,5 @@
 <?PHP
     include('../controller/categorieC.php');
-
     $categoryC=new CategoryC();
     $listeCategory=$categoryC->afficherCategory();
 
@@ -123,11 +122,10 @@ include('header.php');
                 </div>
                 <ul class="nospace group">
                     <li class="one_third first">
-                        <article><a href="#"><i class="fas fa-allergies"></i></a>
-                            <h6 class="heading">Pretium ante libero</h6>
-                            <p>Cursus massa nec vehicula nunc neque et risus mauris rhoncus at justo ac lacinia maecenas
-                                [&hellip;]</p>
-                            <footer><a class="btn" href="#">Read More</a></footer>
+                        <article><a href="nutritionists.php"><i class="fas fa-allergies"></i></a>
+                            <h6 class="heading">nutritionists</h6>
+                            <p>Take an Appointment[&hellip;]</p>
+                            <footer><a class="btn" href="nutritionists.php">Read More</a></footer>
                         </article>
                     </li>
                     <li class="one_third">
