@@ -1,7 +1,7 @@
 <?PHP
-    // include('../controller/categorieC.php');
-    // $categoryC=new CategoryC();
-    // $listeCategory=$categoryC->afficherCategory();
+    include('../controller/categorieC.php');
+    $categoryC=new CategoryC();
+    $listeCategory=$categoryC->afficherCategory();
 
 ?>
 
