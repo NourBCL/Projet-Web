@@ -37,6 +37,7 @@ Licence URI: https://www.os-templates.com/template-terms
         <li><a href="#">Contact</a></li>
         <li><a href="#">Login</a></li>
         <li><a href="#">Register</a></li>
+        <li><a href="Products.php">Products</a></li>
       </ul>
     </div>
     <div class="fl_right">

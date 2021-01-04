@@ -1,7 +1,7 @@
 <?PHP
-    include('../controller/categorieC.php');
-    $categoryC=new CategoryC();
-    $listeCategory=$categoryC->afficherCategory();
+    // include('../controller/categorieC.php');
+    // $categoryC=new CategoryC();
+    // $listeCategory=$categoryC->afficherCategory();
 
 ?>
 
@@ -30,6 +30,7 @@
                     <li><a href="#">Contact</a></li>
                     <li><a href="#">Login</a></li>
                     <li><a href="#">Register</a></li>
+                    <li><a href="Products.php">Products</a></li>
                 </ul>
             </div>
             <div class="fl_right">
