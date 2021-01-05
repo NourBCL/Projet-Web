@@ -1,0 +1,67 @@
+
+/*
+====================================================
+
+* 	[Master Stylesheet]
+	
+	Theme Name :  
+	Version    :  
+	Author     :  
+	Author URI :  
+
+====================================================
+
+	TOC
+	
+	1. PRIMARY STYLES
+	2. COMMONS FOR PAGE DESIGN
+		JQUERY LIGHT BOX
+	3. LEFT SECTION
+	4. RIGHT SECTION
+
+====================================================
+
+/* ---------------------------------
+
+2. COMMONS FOR PAGE DESIGN
+--------------------------------- */
+
+.center-text{ text-align: center; } 
+
+.display-table{ display: table; height: 100%; width: 100%; }
+
+.display-table-cell{ display: table-cell; vertical-align: middle; }
+
+
+
+::-webkit-input-placeholder { font-size: .9em; letter-spacing: 1px; }
+
+::-moz-placeholder { font-size: .9em; letter-spacing: 1px; }
+
+:-ms-input-placeholder { font-size: .9em; letter-spacing: 1px; }
+
+:-moz-placeholder { font-size: .9em; letter-spacing: 1px; }
+
+
+.full-height{ height: 100%; }
+
+.position-static{ position: static; }
+
+
+.main-area{ position: relative; height: 100vh;  }
+
+
+
+
+
+/* ---------------------------------
+4. RIGHT SECTION
+--------------------------------- */
+
+.right-section{ position: absolute; top: 0; bottom: 0; right: 0; width: 50%; background-size: cover; z-index: 1; }
+
+.right-section:after{ content:''; position: absolute; top: 0; bottom: 0; right: 0; left: 0; z-index: -2;
+	opacity: .3; background: linear-gradient(to right, #23074d, #cc5333); }
+
+#rounded-countdown{ width: 80%; margin: 0 auto; }
+
